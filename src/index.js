@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             buildToDo(todo, user, dueDate);
             form.reset();
         } else {
-            alert("Please fill out all fields."); // Alert for missing fields
+            alert("Please fill out all fields."); 
         }
     });
 
@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(btnDelete); // Corrected 'btn' to 'btnDelete'
         document.querySelector(`#tasks`).appendChild(li);
     }
-
     function handleDelete(e) {
         e.target.parentNode.remove(); // Removes the parent <li>
     }
