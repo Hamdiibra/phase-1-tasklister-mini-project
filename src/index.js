@@ -55,5 +55,4 @@ function getPriorityColor(priority) {
             return 'black';
     }
 }
-
 });
